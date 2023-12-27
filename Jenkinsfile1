@@ -21,7 +21,7 @@ pipeline{
                 steps{
                     echo 'test cases getting executed; testing functionality of the code'
                     sh "mvn test"
-                    echo "test completed"
+                    echo "test completed........"
                 }
             }
             stage('quality-assurance'){
